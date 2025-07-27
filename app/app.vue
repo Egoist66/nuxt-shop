@@ -1,6 +1,15 @@
+<script setup lang="ts">
+
+
+</script>
+
 <template>
   <div>
+    <SharedTestComp />
+    <TestWidget />
+
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <NuxtWelcome  />
+
   </div>
 </template>
