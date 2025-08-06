@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+   features: {
+    devLogs: true,
+
+   },
   components: [
     {
       path: "~/components",
@@ -17,6 +21,11 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
     "@nuxtjs/tailwindcss",
   ],
+
+  vue: {
+    propsDestructure: true,
+    
+  },
   experimental: {
     asyncContext: true,
     componentIslands: true,

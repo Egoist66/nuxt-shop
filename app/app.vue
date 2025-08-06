@@ -5,11 +5,8 @@
 
 <template>
   <div>
-    <SharedTestComp />
-    <TestWidget />
-
+    <NuxtLoadingIndicator color="#3b82f6" :duration="1000" :height="4" />
     <NuxtRouteAnnouncer />
-    <NuxtWelcome  />
-
+    <NuxtPage />
   </div>
 </template>
