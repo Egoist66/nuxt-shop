@@ -31,8 +31,9 @@ export default defineNuxtConfig({
     asyncContext: true,
     componentIslands: true,
   },
-
+  
   css: ["~/assets/css/tailwind.css", "~/assets/css/main.scss"],
+  
   typescript: {
     typeCheck: import.meta.dev,
   },
