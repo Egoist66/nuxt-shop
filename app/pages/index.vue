@@ -16,6 +16,9 @@ const cssConfig = {
       Перейти
     </button>
 
+    <UiActionButton  color="primary">Click</UiActionButton>
+    <UiActionButton  color="ghost">Click</UiActionButton>
+
   </div>
 </template>
 
