@@ -5,8 +5,12 @@
 
 <template>
   <div>
-    <NuxtLoadingIndicator color="#3b82f6" :duration="1000" :height="4" />
-    <NuxtRouteAnnouncer />
-    <NuxtPage />
+    <ServiceNuxtMetaRouteInfo />
+
+    <NuxtLayout>
+      
+      <NuxtPage />
+      
+    </NuxtLayout>
   </div>
 </template>

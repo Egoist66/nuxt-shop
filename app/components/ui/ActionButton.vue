@@ -16,7 +16,7 @@ const {color = 'primary'} = defineProps<{
 <style scoped lang="postcss">
 
 .primary {
-    @apply border-none rounded transition duration-300 hover:bg-[#3333] will-change-contents cursor-pointer font-semibold text-base bg-black text-white p-3 w-[200px] block;
+    @apply border-none rounded transition duration-300 hover:bg-[#222] will-change-contents cursor-pointer font-semibold text-base bg-black text-white p-3 w-[200px] block;
 
 }
 

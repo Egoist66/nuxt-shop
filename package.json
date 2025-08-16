@@ -11,6 +11,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "2.0.0",
     "@tailwindcss/postcss": "4.1.11",
     "eslint": "9.33.0",
     "nuxt": "4.0.3",

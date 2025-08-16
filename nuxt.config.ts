@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   debug: false,
+  ssr: false,
   features: {
     devLogs: true,
 
@@ -21,6 +22,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/scripts",
     "@nuxtjs/tailwindcss",
+    "@nuxt/icon",
   ],
 
   vue: {

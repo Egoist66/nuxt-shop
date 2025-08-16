@@ -5,6 +5,8 @@ const cssConfig = {
   
 };
 
+const val = ref('')
+
 </script>
 
 <template>
@@ -16,8 +18,10 @@ const cssConfig = {
       Перейти
     </button>
 
-    <UiActionButton  color="primary">Click</UiActionButton>
-    <UiActionButton  color="ghost">Click</UiActionButton>
+
+    <UiInputField placeholder="Input" v-model:data="val" variant="gray" />
+
+    <Icon size="30" name="entypo-social:twitter" />
 
   </div>
 </template>
