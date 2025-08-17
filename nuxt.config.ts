@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     devLogs: true,
 
   },
+  app: {
+    pageTransition: { name: "page", mode: "out-in" },
+  },
   components: [
     {
       path: "~/components",

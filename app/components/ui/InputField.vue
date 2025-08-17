@@ -8,7 +8,7 @@ const [model] = defineModel<string>("data", { required: true });
 <template>
     <input type="text" 
         :class="[variant, 'input']" 
-        v-model="model" 
+        v-model.trim="model" 
         :data-value="model" 
     />
 </template>

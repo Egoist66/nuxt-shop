@@ -10,7 +10,7 @@ const val = ref('')
 </script>
 
 <template>
-  <div class="p-5">
+  <section>
     <h1>{{ $route?.name?.toString().toUpperCase() }}</h1>
 
     <NuxtLink no-prefetch to="/about">Go to About</NuxtLink>
@@ -19,11 +19,9 @@ const val = ref('')
     </button>
 
 
-    <UiInputField placeholder="Input" v-model:data="val" variant="gray" />
 
-    <Icon size="30" name="entypo-social:twitter" />
 
-  </div>
+  </section>
 </template>
 
 <style scoped></style>

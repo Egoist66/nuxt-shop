@@ -10,14 +10,13 @@
 
 console.log(data);
 </script>
-
 <template>
-  <div>
+  <section>
     
     Page: about
 
     
-  </div>
+  </section>
 </template>
 
 <style scoped></style>

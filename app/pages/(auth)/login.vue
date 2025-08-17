@@ -7,9 +7,9 @@
 </script>
 
 <template>
-  <div>
+  <section>
     Page: login
-  </div>
+  </section>
 </template>
 
 <style scoped></style>

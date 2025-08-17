@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <div>
+  <section>
     Catalog {{ $route.params.id }}
 
    
-  </div>
+  </section>
 </template>
 
 <style scoped></style>

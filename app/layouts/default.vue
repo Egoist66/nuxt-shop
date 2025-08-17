@@ -4,15 +4,21 @@
 
 <template>
   <header  v-if="$slots.header">
-    <slot  name="header" />
+    <div class="container px-5 m-auto">
+      <slot  name="header" />
+    </div>
   </header>
 
   <main>
-    <slot />
+    <div class="container px-5 m-auto">
+      <slot />
+    </div>
   </main>
 
   <footer  v-if="$slots.footer">
-    <slot name="footer" />
+    <div class="container px-5 m-auto">
+      <slot name="footer" />
+    </div>
   </footer>
 </template>
 

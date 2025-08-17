@@ -10,6 +10,11 @@
     <NuxtLayout>
       
       <NuxtPage />
+
+
+      <template #footer>
+        <LayoutFooter />
+      </template>
       
     </NuxtLayout>
   </div>

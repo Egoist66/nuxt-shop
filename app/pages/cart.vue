@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <section>
     Page: cart
-  </div>
+  </section>
 </template>
 
 <style scoped></style>
